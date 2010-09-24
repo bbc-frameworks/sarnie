@@ -1,0 +1,7 @@
+{
+    "name"         : "sarnie",
+    "description"  : "Live Graphs from Sar",
+    "version"      : "0.1.0dev",
+    "dependencies" : { "socket.io" : ">=0.5.3" },
+    "bin"          : { "sarnie" : "./lib/sarnie.js" }
+}

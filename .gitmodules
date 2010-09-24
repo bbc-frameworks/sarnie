@@ -1,0 +1,3 @@
+[submodule "ext/Socket.IO"]
+	path = ext/Socket.IO
+	url = git://github.com/LearnBoost/Socket.IO.git
