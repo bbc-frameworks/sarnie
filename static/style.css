@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Molengo', arial, serif;
+    font-size: 66%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-bottom: 0.1em;
+    clear: both;
+}
+
+canvas {
+    float: left;
+    margin-bottom: 1em;
+}
+
+.key {
+    float: left;
+    padding-left: 10px;
+}
+
+.key li {
+    padding-left: 5px;
+    margin: 5px;
+}

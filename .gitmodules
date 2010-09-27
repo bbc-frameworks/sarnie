@@ -1,3 +1,9 @@
 [submodule "ext/Socket.IO"]
 	path = ext/Socket.IO
 	url = git://github.com/LearnBoost/Socket.IO.git
+[submodule "ext/smoothie"]
+	path = ext/smoothie
+	url = git://github.com/joewalnes/smoothie.git
+[submodule "ext/underscore"]
+	path = ext/underscore
+	url = git://github.com/documentcloud/underscore.git

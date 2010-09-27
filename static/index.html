@@ -3,8 +3,31 @@
   <head>
     <meta charset="utf-8" />
     <title>Sarnie</title>
+    <script type="text/javascript" src="/js/socket.io.js"></script>
+    <script type="text/javascript" src="/js/smoothie.js"></script>
+    <script type="text/javascript" src="/js/underscore.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/sarnie.js"></script>
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: [ 'Molengo' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script> 
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
   </head>
   <body>
+    <h1>Live Performance</h1>
+
+    <ul id="measures"></ul>
 
   </body>
 </html>
